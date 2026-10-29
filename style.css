@@ -1,0 +1,47 @@
+/* my external css file */
+
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        p { 
+            font-size: 35px;
+            color: #b41c1c;
+        }
+        P {
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px #cccccc;
+        }
+        .tagline {
+            font-size: 25px;
+            color: #ffa600;
+            background-color: #09006d;
+        }
+        #about_me {
+            border: 2px solid #020d5b;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #0002;
+            padding: 25px;
+        }
+        H1 {
+            color: #020d5b;
+        }
+        h1, h3 {
+            text-align: center;
+        }
+        #about_me h1 {
+            text-align: center; 
+            height: 50px;
+            color:#ffa600
+        }
+        small.qoute {
+            display: inline-block;
+            padding: 6px 12px;
+            margin: 5px;
+            border-radius: 20px;
+            background-color: #dbeafe;
+        }
+        p:hover {
+            color: #ff0000;
+        }

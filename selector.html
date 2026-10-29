@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors Practice</title>
+
+    <style>
+        /* 1. ELEMENT SELECTOR */
+        /* Selects every paragraph element */
+        p {
+            font-size: 20px;
+        }
+        /* 2. CLASS SELECTOR */
+        /* Selects every element with class="item" */
+        .item {
+            background-color: lightyellow;
+        }
+        /* Selects every element with class="special" */
+        .special {
+            font-weight: bold;
+        }
+        /* 3. ID SELECTOR */
+        /* Selects the element with id="title" */
+        #title {
+            text-align: center;
+        }
+
+        /* Selects the element with id="menu" */
+        #menu {
+            border: 2px solid black;
+        }
+         /* 4. GROUP SELECTOR */
+        /* Applies the same style to h1 and h2 */
+        h1, h2 {
+            color: navy;
+        }
+        /* 5. DESCENDANT SELECTOR */
+        /* Selects paragraphs inside the element with id="about" */
+        #about p {
+            background-color: lavender;
+        }
+        /* 6. ELEMENT AND CLASS COMBINED */
+        /* Selects only p elements with class="special" */
+        p.special {
+            text-decoration: underline;
+        }
+        /* 7. PSEUDO-CLASS SELECTOR */
+        /* Changes a link's color when the mouse hovers over it */
+        a:hover {
+            color: red;
+        }
+
+        /* Changes a menu item's background when hovered over */
+        .item:hover {
+            background-color: orange;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1 id="title">Corner Bakery</h1>
+
+    <p class="tagline">Fresh bread and pastries every day.</p>
+
+    <div id="menu">
+        <h2>Menu</h2>
+
+        <ul>
+            <li class="item">Pandesa</li>
+            <li class="item special">Ube Cheese Roll</li>
+            <li class="item">Banana Bread</li>
+        </ul>
+    </div>
+
+    <div id="about">
+        <h2>About</h2>
+
+        <p>We bake in small batches.</p>
+
+        <p id="note" class="special">
+            Our ube rolls are made from scratch.
+        </p>
+
+        <a href="https://example.com">Visit our page</a>
+    </div>
+</body>
+</html>
